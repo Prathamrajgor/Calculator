@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+  margin: 0;padding: 0;
+  font-family: 'Varela Round', sans-serif
+}
+
+body{
+  background-color: #00B9FB;
+}
+.head{
+  height: 10vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  color:  black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom,#000048,#00B9FB);
+  border: 5px pink;
+  height: 90vh;
+  width: 100vw;
+}
+.calc{
+  margin-top: 10vh;
+  height: 95vh;
+  width: 37vw;
+  background-color: #14274E;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+.output{
+  height: 10vh;
+  width: auto;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.grids{
+  height: 60vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  display: inline-grid;
+  grid-template-columns: 8vw 8vw  8vw  8vw ;
+  grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh ;
+  grid-gap: 2vh;
+
+}
+.PofGrid{
+  padding-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.common{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+  /* background-color: rgba(0, 0, 0, 0.438); */
+  background-color: #ECB365;
+  
+}
+
+.modulus:hover{
+  background-color: #7858FF; font-size:21px;  
+  box-shadow: 5px green;
+  
+}
+.clearall:hover{
+  background-color: #7858FF; font-size:21px;  
+} 
+.clear:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.backspace:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.reciprocal:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.square:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.root:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.divide:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.a9:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.a8:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.a7:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.a6:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.a5:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.a4:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.a3:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.a2:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.a1:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.a0:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.multiply:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.minus:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.add:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.negative:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.decimal:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.isequalto:hover{
+  background-color: #7858FF; font-size:21px;  
+}
+.output{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size:8vh;
+  height:20vh;
+  background-color: #7858FF;
+  padding-right: 2vw;
+  padding-bottom: 1vw;
+}
+.start1{
+
+  height: 20vh;
+  width:  35vw;
+
+}
+.start2{
+
+  height: 10vh;
+  width:  10vw;
+
+}
